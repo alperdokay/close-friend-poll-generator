@@ -1,16 +1,18 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[31]:
+# In[1]:
 
 
+# Don't change this cell
 import random
 import time
 
 
-# In[32]:
+# In[3]:
 
 
+# You may want to change the elements as you wish, just be careful about having even number of elements
 items = ['Baklava', 'Şöbiyet', 'Ekmek Kadayıfı', 'Sütlaç', 'Şekerpare', 'Kemalpaşa', 'Künefe', 'Katmer']
 ordered_elements = []
 while len(items) != 0:
@@ -20,7 +22,7 @@ while len(items) != 0:
     ordered_elements.append(pick)
 
 
-# In[36]:
+# In[ ]:
 
 
 # Final Presentation
@@ -28,7 +30,7 @@ i = 1
 prev_elem = None
 for elem in ordered_elements:
     print("%d. element seçiliyor..." % i)
-    for j in range(1):
+    for j in range(1): # in case you want to put more than 1 dot, change this
         print(".")
         time.sleep(3)
     print(elem)
